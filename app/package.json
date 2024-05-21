@@ -12,8 +12,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@react-pdf-viewer/core": "file:../packages/core",
-    "pdfjs-dist": "4.0.379"
+    "@olerhealth/core": "4.0.1",
+    "pdfjs-dist": "3.11.174"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
