@@ -1,6 +1,6 @@
 {
-    "name": "@react-pdf-viewer/core",
-    "version": "3.12.0",
+    "name": "@olerhealth/core",
+    "version": "4.0.1",
     "description": "A React component to view a PDF document",
     "license": "https://react-pdf-viewer.dev/license",
     "author": {
@@ -37,7 +37,7 @@
         "react-dom": ">=16.8.0"
     },
     "publishConfig": {
-        "access": "public"
+        "access": "restricted"
     },
     "scripts": {
         "clean": "rm -rf lib && mkdir lib",
@@ -45,6 +45,6 @@
         "js": "cp src/index.d.ts lib && cp dist/index.js lib && rollup -c ../../rollup.config.cjs",
         "css": "sass --no-source-map --style compressed src/styles/index.scss lib/styles/index.css",
         "test": "jest --config ../../jest.config.js",
-        "release": "npm publish --access public"
+        "release": "npm publish --access restricted"
     }
 }
